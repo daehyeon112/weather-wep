@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <form id="login-form" class="hidden">
+    <input type="text" placeholder="what is your name?" />
+    <button>log in</button>
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting"></h1>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
 </body>
 </html>
